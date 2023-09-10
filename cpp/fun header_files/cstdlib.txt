@@ -1,0 +1,67 @@
+link =https://www.alphacodingskills.com/cpp/cpp-cstdlib.php
+
+Numeric string conversion functions
+
+atof()	Convert string to double.
+atoi()	Converts a byte string to an integer value.
+atol()	Converts a byte string to a long integer value.
+atoll()	Converts a byte string to a long long integer value.
+strtod()	Converts string to double.
+strtof()	Converts string to float.
+strtol()	Convert string to long integer.
+strtold()	Converts string to long double.
+strtoll()	Convert string to long long integer.
+strtoul()	Convert string to unsigned long integer.
+strtoull()	Convert string to unsigned long long integer.
+
+Dynamic memory management functions
+
+calloc()	Allocate and zero-initialize array.
+free()	Deallocates previously allocated memory.
+malloc()	Allocates memory.
+realloc()	Reallocates previously allocated memory block.
+
+Pseudo-random sequence generation functions
+
+rand()	Returns a pseudo-random integral value between 0 and RAND_MAX.
+srand()	Seeds the pseudo-random number generator used by rand() with the value seed.
+
+Environment functions
+
+abort()	Aborts the current process.
+getenv()	Gets environment string.
+
+Integer arithmetics functions
+
+abs()	Returns absolute value of an integral value.
+div()	Returns quotient and remainder of integer division.
+labs()	Returns absolute value of an integral value.
+ldiv()	Returns quotient and remainder of integer division.
+llabs()	Returns absolute value of an integral value.
+lldiv()	Returns quotient and remainder of integer division.
+
+
+Multibyte/wide character conversions
+
+mblen()	Returns the number of bytes in the next multibyte character.
+mbtowc()	Converts the next multibyte character to wide character.
+wctomb()	Converts a wide character to its multibyte representation.
+
+
+Library Types
+
+
+div_t	Structure type, return by div() function.
+ldiv_t	Structure type, return by ldiv() function.
+lldiv_t	Structure type, return by lldiv() function.
+size_t	Unsigned integer type.
+
+Macro constants
+
+
+EXIT_FAILURE	Program failure termination code.
+EXIT_SUCCESS	Program success termination code.
+MB_CUR_MAX	Maximum size of a multibyte characters with the current locale.
+NULL	Null pointer.
+RAND_MAX	Maximum value returned by rand() function.
+
